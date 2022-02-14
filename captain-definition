@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "dockerfileLines": [
+    "FROM juniorfontenele/laravel:8",
+    "RUN composer install",
+    "CMD [ \"php\", \"artisan\", \"serve\" ]"
+  ]
+}
